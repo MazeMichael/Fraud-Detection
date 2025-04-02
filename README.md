@@ -1,6 +1,6 @@
 # Fraud-Detection
 
-# 🕵️‍♂️ Fraud Detection with Random Forest
+# Fraud Detection with Random Forest
 
 This project uses a Random Forest classifier to detect potentially fraudulent transactions in a synthetic financial dataset. The goal is to predict whether a transaction is fraudulent (`isFraud`) based on features like transaction type, amount, and other metadata.
 
@@ -8,7 +8,8 @@ This project uses a Random Forest classifier to detect potentially fraudulent tr
 
 ## Dataset
 
-The dataset used is a synthetic financial transactions log, originally sourced from [Kaggle or OpenML].  
+The dataset used is a synthetic financial transactions log, originally sourced from [Kaggle or OpenML].
+- Download here: https://www.kaggle.com/datasets/sriharshaeedala/financial-fraud-detection-dataset?resource=download 
 - `nameOrig` and `nameDest`: identifiers for source and destination accounts  
 - `type`: type of transaction (e.g., TRANSFER, CASH_OUT)  
 - `amount`, `oldbalanceOrg`, `newbalanceOrig`, etc.: transaction and account balance details  
